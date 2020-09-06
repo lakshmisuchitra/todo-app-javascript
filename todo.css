@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background-color: #4fa1bf;
+  overflow-x: hidden;
+}
+.todo {
+  padding-top: 40px;
+}
+.todo h2 {
+  font-weight: bold;
+  color: white !important;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+}
+.todo-head {
+  text-align: center;
+}
+.head-1 {
+  color: gold;
+}
+.head-2 {
+  color: limegreen;
+}
+.head-3 {
+  color: #2e637d;
+}
+.todo-icon {
+  position: absolute;
+  right: -23px;
+  top: -8px;
+  font-size: 35px;
+  color: #2e637d;
+}
+.todo-li {
+  background-color: #3bbdc2;
+  color: white;
+  border: 2px solid #2e637d;
+  border-radius: 6px;
+  margin: 20px;
+  padding: 6px;
+  list-style: none !important;
+  width: 100%;
+}
